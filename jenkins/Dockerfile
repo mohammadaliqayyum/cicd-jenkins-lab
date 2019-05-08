@@ -2,7 +2,7 @@ FROM jenkins/jenkins:lts
 
 USER root
 RUN rm -rf /var/jenkins_home/.ssh
-RUN apt-get update && apt-get install -y nano iputils-ping net-tools telnet openssh-server cron
+RUN apt-get update && apt-get install -y nano iputils-ping net-tools telnet openssh-server cron maven
 RUN service ssh start
 
 RUN mkdir ~/.ssh

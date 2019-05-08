@@ -9,3 +9,8 @@ services:
      build: ./webserver
      ports:
       - "80:80"
+
+   tomcat7:
+     build: ./tomcat7
+     ports:
+      - "8081:8080"
