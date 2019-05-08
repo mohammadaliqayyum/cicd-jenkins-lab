@@ -1,6 +1,6 @@
 # cicd-jenkins-lab
 
-Docker commnads:
+Docker commands:
 
 List running containers: 
 Docker ps
